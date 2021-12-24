@@ -1,0 +1,12 @@
+{
+    "name": "ts-quick-start",
+    "version": "1.0.0",
+    "description": "This is a template for jumping into ts development",
+    "scripts": { },
+    "dependencies": {
+      "@types/node": "^13.9.2"
+    },
+    "devDependencies": {
+      "typescript": "^3.3.3"
+    }
+  }
