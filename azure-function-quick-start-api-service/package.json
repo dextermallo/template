@@ -1,0 +1,21 @@
+{
+  "name": "azure-function-quick-start-api-service",
+  "version": "1.0.0",
+  "description": "template for quick building up APIs by azure function",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "NODE_ENV=test & jest --runInBand",
+    "clear": "rm -rf dist node_modules package-lock.json"
+  },
+  "dependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/node": "^13.9.2",
+    "ts-jest": "^27.0.7"
+  },
+  "devDependencies": {
+    "@azure/functions": "^1.2.3",
+    "typescript": "^3.3.3"
+  }
+}

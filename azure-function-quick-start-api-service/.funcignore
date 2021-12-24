@@ -1,0 +1,10 @@
+*.js.map
+*.ts
+.git*
+.vscode
+.env
+local.settings.json
+tsconfig.json
+/coverage
+/test
+*.test.js
