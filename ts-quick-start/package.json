@@ -1,0 +1,20 @@
+{
+    "name": "ts-quick-start",
+    "version": "1.0.0",
+    "description": "This is a template for jumping into ts development",
+    "scripts": {
+      "build": "tsc",
+      "prestart": "npm run build",
+      "start": "node dist/main.ts",
+      "test": "NODE_ENV=test & jest --runInBand"
+    },
+    "dependencies": {
+      "@types/jest": "^27.0.2",
+      "@types/node": "^13.9.2",
+      "dotenv": "^10.0.0",
+      "ts-jest": "^27.0.7"
+    },
+    "devDependencies": {
+      "typescript": "^3.3.3"
+    }
+  }
